@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(21, 166, 202);
+
+}
+
+body header div nav a {
+    text-decoration: none;
+    color: rgb(24, 24, 153);
+    padding: 30px;
+    font-weight: 900;
+    font-size: 25px;
+    float: left;
+    transition-property: color;
+    transition-duration: 0.75s;
+}
+
+.navbar a:hover {
+    color: yellow;
+    cursor: default;
+
+}
+
+body,
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    background-image: url(/Images/Ankit-2.PNG);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    z-index: 2;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        text-align: center;
+        display: block;
+    }
+
+}
